@@ -10,6 +10,7 @@ npm run docs:build
 cd docs/.vuepress/dist
 
 git init
+git branch -M main
 git add -A
 git commit -m 'deploy'
 
