@@ -10,6 +10,7 @@ npm run docs:build
 cd docs/.vuepress/dist
 
 git init
+# 默认如果是master 就变为main 否则后续冲突
 git branch -M main
 git add -A
 git commit -m 'deploy'

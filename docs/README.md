@@ -1,5 +1,9 @@
-# Hello VuePress
+# Personal Document Lib
 
-## do it
+这里是一个个人文档库。用于编写一些总结性的内容，仅仅针对自己书写，**不具备**作为教程的性质。当然，如果其中的内容能对你有帮助，实属荣幸。
 
-待写中...咕咕咕
+Here is a personal documentation repository. It is used to write some summative content, just for myself, and **does not have** a teaching effect like a tutorial. Of course, it would be an honor if the content in it can be helpful to you.
+
+<br/>
+<br/>
+<br/>
