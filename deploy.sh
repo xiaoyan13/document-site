@@ -9,6 +9,8 @@ npm run docs:build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
+echo 'www.iflowers.site' > CNAME
+
 git init
 # 默认如果是master 就变为main 否则后续冲突
 git branch -M main

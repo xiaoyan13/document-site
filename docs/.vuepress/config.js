@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { tocPlugin } from '@vuepress/plugin-toc'
 import path from 'path'
 import fs from 'fs'
 
@@ -73,6 +74,9 @@ export default defineUserConfig({
     plugins: [
         registerComponentsPlugin({
             componentsDir: path.resolve(__dirname, './components'),
-        })
+        }),
+        tocPlugin({
+            
+        }),
     ]
 }) 
