@@ -11,4 +11,13 @@ Here is a personal documentation repository. It is used to write some summative 
 Powered by `vuepress2` and `github pages`.
 
 <br/>
+
+待更需求：
+
+- 代码块的滑动条美化
+- 黑盒理论
+- 数据分析 - 绘图部分
+- 数据分析 - 气象部分
+- 检查一遍杂文中的md语法，历史久远书写太不规范
+
 <br/>

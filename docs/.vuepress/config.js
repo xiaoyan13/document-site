@@ -3,7 +3,7 @@ import { defaultTheme } from 'vuepress'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { tocPlugin } from '@vuepress/plugin-toc'
 import path from 'path'
-import fs from 'fs'
+import fs, { link } from 'fs'
 
 function getFileList(filePath) {
     let files = fs.readdirSync(filePath);
@@ -47,6 +47,10 @@ export default defineUserConfig({
                         ]
                     }
                 ]
+            },
+            {
+                text: 'vue',
+                link: '/vue-study/'
             }
         ],
         sidebar: {
@@ -63,6 +67,18 @@ export default defineUserConfig({
                     'matplotlib',
                 ]
             }],
+            '/vue-study': [{
+                text: 'Vue学习笔记',
+                children: [
+                    '环境配置',
+                    'Vue概述',
+                    'vite搭建',
+                    '基本指令使用',
+                    '全局组件与局部组件',
+                    '组件样式基础',
+                    'prop与emit',
+                ],
+            }]
 
         },
     }),
