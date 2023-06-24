@@ -137,7 +137,7 @@ export default {
 ```vue
 <template>
 <div>
-	<div v-bind="$attrs"></div>    
+  <div v-bind="$attrs"></div>    
 </div>
 </template>
 <script>

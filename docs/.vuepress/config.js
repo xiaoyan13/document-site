@@ -9,7 +9,7 @@ function getFileList(filePath) {
     let files = fs.readdirSync(filePath);
     let listArr = [];
     files.forEach(filename => {
-        if (filename === 'images' || filename === 'README.md') return ;
+        if (filename === 'images' || filename === 'README.md') return;
         listArr.push(filename);
     })
     return listArr;
@@ -73,7 +73,7 @@ export default defineUserConfig({
                     '环境配置',
                     'Vue概述',
                     'vite搭建',
-                    '基本指令使用',
+                    'vue的基本使用',
                     '全局组件与局部组件',
                     '组件样式基础',
                     'prop与emit',
@@ -92,7 +92,7 @@ export default defineUserConfig({
             componentsDir: path.resolve(__dirname, './components'),
         }),
         tocPlugin({
-            
+
         }),
     ]
 }) 

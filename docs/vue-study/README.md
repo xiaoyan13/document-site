@@ -8,7 +8,7 @@
 
 [vue2](https://v2.cn.vuejs.org/v2/guide/)
 
-## CDN 
+## CDN
 
 [bootcdn](https://www.bootcdn.cn/vue/)
 
